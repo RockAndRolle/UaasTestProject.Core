@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UaasTestProject.Web(2)", "UaasTestProject.Web\", "{89095845-F09C-4A70-9160-5F60B4FA339B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3478"
+		Debug.AspNetCompiler.PhysicalPath = "UaasTestProject.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3478\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3478"
+		Release.AspNetCompiler.PhysicalPath = "UaasTestProject.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3478\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3478"
+		SlnRelativePath = "UaasTestProject.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B0E53DDE-B902-48B7-B409-F6E6EA0D4068} = {B0E53DDE-B902-48B7-B409-F6E6EA0D4068}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UaasTestProject.Core", "UaasTestProject.Core\UaasTestProject.Core.csproj", "{B0E53DDE-B902-48B7-B409-F6E6EA0D4068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89095845-F09C-4A70-9160-5F60B4FA339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89095845-F09C-4A70-9160-5F60B4FA339B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E53DDE-B902-48B7-B409-F6E6EA0D4068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E53DDE-B902-48B7-B409-F6E6EA0D4068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E53DDE-B902-48B7-B409-F6E6EA0D4068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E53DDE-B902-48B7-B409-F6E6EA0D4068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

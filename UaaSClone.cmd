@@ -1,0 +1,1 @@
+git clone https://uaastestproject.scm.s1.umbraco.io/b1452ed2-db63-4865-a423-ac5b35f6b7a1.git UaasTestProject.Web
