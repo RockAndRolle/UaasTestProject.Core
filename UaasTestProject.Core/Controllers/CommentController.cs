@@ -25,8 +25,8 @@ namespace UaasTestProject.Core.Controllers
             newComment.SetValue("firstName", model.Name);
             newComment.SetValue("email", model.Email);
             newComment.SetValue("message", model.Comment);
-
-            Services.ContentService.SaveAndPublishWithStatus(newComment);
+            newComment.SetValue("umbracoNaviHide", true);
+            contentService.SaveAndPublishWithStatus(newComment);
 
             TempData["success"] = true;
 
