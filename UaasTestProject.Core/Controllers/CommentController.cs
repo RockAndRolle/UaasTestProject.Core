@@ -12,7 +12,7 @@ namespace UaasTestProject.Core.Controllers
 {
     public class CommentController : SurfaceController
     {
-        public ActionResult Submit(CommentModel model)
+        public ActionResult Submit(Comment model)
         {
             if (!ModelState.IsValid)
             {
@@ -24,7 +24,7 @@ namespace UaasTestProject.Core.Controllers
             var newComment = contentService.CreateContent(model.Name, CurrentPage.Id, "Comment");
             newComment.SetValue("firstName", model.Name);
             newComment.SetValue("email", model.Email);
-            newComment.SetValue("message", model.Comment);
+            newComment.SetValue("message", model.Message);
             newComment.SetValue("umbracoNaviHide", true);
             contentService.SaveAndPublishWithStatus(newComment);
 

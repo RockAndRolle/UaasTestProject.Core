@@ -1,11 +1,11 @@
 ﻿namespace UaasTestProject.Core.Models
 {
-    public class CommentModel
+    public class Comment
     {
         public string Name { get; set; }
 
         public string Email { get; set; }
 
-        public string Comment { get; set; }
+        public string Message { get; set; }
     }
 }

@@ -268,7 +268,3 @@ __pycache__/
 # Umbraco as a Service
 UaasTestProject.Web/
 [Uu]aa[Ss].cmd
-
-
-# Don't ignore
-![Bb]in/UaasTestProject.Core.dll
